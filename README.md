@@ -14,3 +14,15 @@ Este es un repositorio de comandos de Linux del curso de Sistemas operativos
 | head -n | Para visualizar las primeras 10 lineas de un fichero| |
 | cp | Permite copiar un archivo o carpeta| |
 | alias | Indica que reemplace una cadena por otra| |
+| mv| Mover/renombrar archivos o directorios del sistema de archivos| |
+| rm | Elimina archivos y directorios| |
+| useradd| Creacion de usuarios| |
+| passwd | Cambia la contraseña del usuario| |
+| less| Muestra el texto en la pantalla| |
+| history | Buscar los ultimos comandos que se han ejecutado| |
+| sudo apt install| Instalar paquetes| |
+| ls -l |Listado simplificado de los archivos del servidor que se relacionan con la espcificacion de un archivo| |
+| dir/mkdir | Copiar directorios| |
+| ps -aux| Informacion sobre los procesos que se ejecutan actualmente.| |
+| ip addr |Muestra la direccion IP y la informacion de las interfaces de red| |
+| top | Ver las tareas del sistema que se ejecuta en tiempo real| |
