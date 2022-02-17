@@ -2,10 +2,10 @@
 Este es un repositorio de comandos de Linux del curso de Sistemas operativos
 | **COMANDO** | **DESCRIPCION** | **EJEMPLO DE USO** |
 | --------| ----------- | -------------- |
-| ps-aux | Muestra los procesos que pertenecen a un usuario  | |
-| top  | Permite ver las tareas del sistema en tiempo real| |
-| htop  |  Visor de procesos, es similar al top pero visual| |
-| pstree | Muestra de manera de arbol los procesos en ejecucion| |
+| ps-aux | Muestra los procesos que pertenecen a un usuario  |-Muestra los procesos asociados a un usuario, mostrar los procesos asociados a un grupo de usuarios, procesos relacionados a la terminal actual o los procesos en ejecuccion |
+| top  | Permite ver las tareas del sistema en tiempo real|-Procesos preparados para ejecutarse, el proceso no se esta ejecutando, mostrar procesos en ejecuccion detenida. |
+| htop  |  Visor de procesos, es similar al top pero visual|-Ver el primer proceso ejecutandose o el ultimo, rastreo de llamadas al sistema, ordenar procesos por consumo de memoria, ordenar por consumo de procesador, ordenar procesos por tiempo, marcar un proceso y seguirlo, matar un proceso ocultar los procesos. |
+| pstree | Muestra de manera de arbol los procesos en ejecucion| -Para ver la lista de argumentos, mostrar el PID para cada proceso, visualizar el propietario de cada proceso, ordenar las salidas por PID.|
 | man | Paginas de manual, es una herramienta para ver la documentacion sobre comandos, archivos,etc| |
 | sudo su | Permite ejecutar programas con privilegios de otro usuario de manera temporal (generalmente root)| |
 | whoami | Imprime el nombre de usuario actual| |
@@ -25,4 +25,4 @@ Este es un repositorio de comandos de Linux del curso de Sistemas operativos
 | dir/mkdir | Copiar directorios| |
 | ps -aux| Informacion sobre los procesos que se ejecutan actualmente.| |
 | ip addr |Muestra la direccion IP y la informacion de las interfaces de red| |
-| top | Ver las tareas del sistema que se ejecuta en tiempo real| |
+
