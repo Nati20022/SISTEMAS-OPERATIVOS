@@ -24,3 +24,5 @@ Este es un repositorio de comandos de Linux del curso de Sistemas operativos
 | dir/mkdir | Copiar directorios| -Crear una carpeta dentro del nivel de la terminal, crear directorio en una ruta|
 | ip addr |Muestra la direccion IP y la informacion de las interfaces de red|-Ver informacion ethernet, activar o desactivar una interfaz de red, asignar una ip, eliminar una ip, agregar alias, comprobar la puerta de enlace, agregar ruta estatica o eliminarla |
 | df -hT |Cual sistema de archivos tiene el sistema operativo|
+| dchmod |Gestionar los permisos de los archivos o directorios|
+| dchown |  |
