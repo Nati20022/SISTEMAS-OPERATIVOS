@@ -25,4 +25,5 @@ Este es un repositorio de comandos de Linux del curso de Sistemas operativos
 | ip addr |Muestra la direccion IP y la informacion de las interfaces de red|-Ver informacion ethernet, activar o desactivar una interfaz de red, asignar una ip, eliminar una ip, agregar alias, comprobar la puerta de enlace, agregar ruta estatica o eliminarla |
 | df -hT |Cual sistema de archivos tiene el sistema operativo|
 | dchmod |Gestionar los permisos de los archivos o directorios|
-| dchown |  |
+| dchown |Asignar propietarios a los directorios/archivos  |
+| crontab|Administrado de tareas en un momento determinado, se usa con el comando crontab. Se puede colocar un intervalo de tiempo |
