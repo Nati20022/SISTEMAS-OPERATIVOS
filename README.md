@@ -14,7 +14,7 @@ Este es un repositorio de comandos de Linux del curso de Sistemas operativos
 | head -n | Para visualizar las primeras 10 lineas de un fichero| -Se puede cambiar el numero para ver mas lineas head -20|
 | cp | Permite copiar un archivo o carpeta|-Copiar archivos o carpetas de gran tamaño o de manera mas rapida |
 | alias | Indica que reemplace una cadena por otra|-Para eliminar un alias, personalizar el terminal |
-| mv| Mover/renombrar archivos o directorios del sistema de archivos| |
+| mv| Mover/renombrar archivos o directorios del sistema de archivos|-Se puede borrar archivos para crear nuevos con nombre diferentes|
 | rm | Elimina archivos y directorios|-Ejemplo al eliminar un archivo que este corrupto de manera segura |
 | useradd| Creacion de usuarios| -Crear cuenta de usuario, asignar contraseña, crear cuenta de usuario en otro directorio, incluir cuenta en grupos, crear cuenta de usuario sin carpeta personal|
 | passwd | Cambia la contraseña del usuario|-Cambiar la contraseña de un usuario que se desconoce la contraseña actual |
@@ -24,6 +24,6 @@ Este es un repositorio de comandos de Linux del curso de Sistemas operativos
 | dir/mkdir | Copiar directorios| -Crear una carpeta dentro del nivel de la terminal, crear directorio en una ruta|
 | ip addr |Muestra la direccion IP y la informacion de las interfaces de red|-Ver informacion ethernet, activar o desactivar una interfaz de red, asignar una ip, eliminar una ip, agregar alias, comprobar la puerta de enlace, agregar ruta estatica o eliminarla |
 | df -hT |Cual sistema de archivos tiene el sistema operativo|
-| dchmod |Gestionar los permisos de los archivos o directorios|
-| dchown |Asignar propietarios a los directorios/archivos  |
-| crontab|Administrado de tareas en un momento determinado, se usa con el comando crontab. Se puede colocar un intervalo de tiempo |
+| dchmod |Gestionar los permisos de los archivos o directorios| -Cambiar permisos de lectura, excritura y ejecuccion|
+| dchown |Asignar propietarios a los directorios/archivos  |-Puede especificarse el nombre de un usuario, asi como el UID o el GID|
+| crontab|Administrado de tareas en un momento determinado, se usa con el comando crontab. Se puede colocar un intervalo de tiempo |-Para programar comandos que se ejecutaran periodicamente |
